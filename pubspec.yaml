@@ -1,0 +1,52 @@
+name: mioteays
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  fl_chart: ^0.68.0
+  animations: ^2.0.11
+  google_fonts: ^6.2.1
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.1
+  http: ^1.2.2
+  cloud_firestore: ^5.6.12
+  mailer: ^6.5.0
+  pdf: ^3.11.0
+  printing: ^5.13.0
+  http_parser: ^4.0.2
+  firebase_storage: ^12.3.0
+
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter:
+  assets:
+    - assets/images/arkaplan.png
+    - assets/fonts/Roboto-VariableFont_wdth,wght.ttf
+
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icon.png"
+  adaptive_icon_background: "#00000000"
+  adaptive_icon_foreground: "assets/images/icon.png"

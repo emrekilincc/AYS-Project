@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "699423359862",
+    "project_id": "mioteays",
+    "storage_bucket": "mioteays.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699423359862:android:01b6df4f7cd352e9163057",
+        "android_client_info": {
+          "package_name": "com.mioteays"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5WUMuLHNtlCNyvQ0-d3VcUfI1hKh0hso"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
