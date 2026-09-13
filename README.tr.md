@@ -1,25 +1,25 @@
-# ♻️ AYS - Atık Yönetim Sistemi
+# AYS - Atık Yönetim Sistemi
 
-[🇬🇧 Switch to English Documentation](README.md)
+[English Documentation](README.md)
 
-**Flutter** ve **Firebase** teknolojileri kullanılarak geliştirilmiş modern, platformlar arası çalışabilen bir Atık Yönetim Sistemi uygulamasıdır. Atık takibini dijitalleştirmek, yönetici kontrollerini kolaylaştırmak ve raporlama süreçlerini otomatikleştirmek amacıyla tasarlanmıştır.
+Flutter ve Firebase teknolojileri kullanılarak geliştirilmiş, platformlar arası çalışabilen bir Atık Yönetim Sistemi uygulamasıdır. Atık takibini dijitalleştirmek, yönetici kontrollerini kolaylaştırmak ve raporlama süreçlerini otomatikleştirmek amacıyla tasarlanmıştır.
 
 ---
 
-## 📌 Özellikler
+## Özellikler
 
-- **🔐 Kimlik Doğrulama ve Yetkilendirme:** Firebase Auth ile güvenli kayıt/giriş ve rol tabanlı erişim kontrolü (Yönetici / Standart Kullanıcı).
-- **📦 Gerçek Zamanlı Veri Depolama:** Cloud Firestore ile atık verilerinin anlık senkronizasyonu ve yönetimi.
-- **📊 Gelişmiş Grafiksel Raporlama:** Pasta (Pie), Çubuk (Bar) ve Çizgi (Line) grafikleriyle dinamik veri görselleştirme.
-- **📄 Yönetici Araçları:**
+- **Kimlik Doğrulama ve Yetkilendirme:** Firebase Auth ile güvenli kayıt/giriş ve rol tabanlı erişim kontrolü (Yönetici / Standart Kullanıcı).
+- **Gerçek Zamanlı Veri Depolama:** Cloud Firestore ile atık verilerinin anlık senkronizasyonu ve yönetimi.
+- **Grafiksel Raporlama:** Pasta (Pie), Çubuk (Bar) ve Çizgi (Line) grafikleriyle dinamik veri görselleştirme.
+- **Yönetici Araçları:**
   - Sistem raporlarını PDF formatında indirme.
   - EmailJS entegrasyonu ile raporları otomatik e-posta olarak gönderme.
   - Atık verilerini silme ve yönetme yetkisi.
-- **📱💻 Çapraz Platform Desteği:** Android, iOS, Windows, Web, macOS ve Linux üzerinde sorunsuz çalışma.
+- **Çapraz Platform Desteği:** Android, iOS, Windows, Web, macOS ve Linux üzerinde sorunsuz çalışma.
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - **Ön Yüz & Çerçeve:** Flutter (Dart)
 - **Arka Yüz & Veritabanı:** Firebase (Authentication, Cloud Firestore, Firebase Storage)
@@ -28,7 +28,7 @@
 
 ---
 
-## 🚀 Kurulum
+## Kurulum
 
 Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyin:
 
@@ -47,7 +47,7 @@ Uygulamayı çalıştırın:
 
 Bash
 flutter run
-🤝 Katkıda Bulunma
+Katkıda Bulunma
 Katkılarınız bizim için değerlidir!
 
 Depoyu forklayın (Fork)
