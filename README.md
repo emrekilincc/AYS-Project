@@ -1,26 +1,25 @@
-Markdown
-# ♻️ AYS - Waste Management System
+# AYS - Waste Management System
 
-[🇹🇷 Türkçe Dokümantasyon için tıklayın](README.tr.md)
+[Türkçe Dokümantasyon](README.tr.md)
 
-A modern, cross-platform Waste Management Application built with **Flutter** and **Firebase**. Designed to digitize waste tracking, streamline administrative control, and automate reporting.
+A cross-platform Waste Management Application built with Flutter and Firebase. Designed to digitize waste tracking, streamline administrative control, and automate reporting.
 
 ---
 
-## 📌 Features
+## Key Features
 
-- **🔐 Authentication & RBAC:** Secure login and registration via Firebase Authentication with Role-Based Access Control (Admin / Standard User).
-- **📦 Real-time Data Storage:** Instant waste data synchronization and management using Cloud Firestore.
-- **📊 Advanced Analytics:** Dynamic visual reports including Pie Charts, Bar Charts, and Line Charts.
-- **📄 Administrative Tools:**
+- **Authentication & RBAC:** Secure login and registration via Firebase Authentication with Role-Based Access Control (Admin / Standard User).
+- **Real-time Data Storage:** Instant waste data synchronization and management using Cloud Firestore.
+- **Advanced Analytics:** Dynamic visual reports including Pie Charts, Bar Charts, and Line Charts.
+- **Administrative Tools:**
   - Export comprehensive system reports to PDF.
-  - Automated report delivery via email (integrated with EmailJS).
+  - Automated report delivery via email integrated with EmailJS.
   - Full management over waste records and user data.
-- **📱💻 Cross-Platform Support:** Runs natively on Android, iOS, Windows, Web, macOS, and Linux.
+- **Cross-Platform Support:** Runs natively on Android, iOS, Windows, Web, macOS, and Linux.
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend & Framework:** Flutter (Dart)
 - **Backend & Database:** Firebase (Authentication, Cloud Firestore, Firebase Storage)
@@ -29,7 +28,7 @@ A modern, cross-platform Waste Management Application built with **Flutter** and
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 Follow these steps to run the project locally:
 
@@ -48,7 +47,7 @@ Run the app:
 
 Bash
 flutter run
-🤝 Contributing
+Contributing
 Contributions are welcome!
 
 Fork the Project
