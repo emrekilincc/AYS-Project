@@ -1,71 +1,62 @@
-# AYS-Project
+Markdown
+# ♻️ AYS - Waste Management System
 
-AYS-Project, Flutter ve Firebase teknolojileri kullanılarak geliştirilmiş modern bir **Atık Yönetim Sistemi** uygulamasıdır.  
-Bu proje, kullanıcıların atık verilerini kaydedebilmesi, listeleyebilmesi, raporlayabilmesi ve yöneticilerin (admin) özel yetkilerle bu verileri yönetebilmesi amacıyla hazırlanmıştır.  
+[🇹🇷 Türkçe Dokümantasyon için tıklayın](README.tr.md)
 
----
-
-## Projenin Amacı
-Bu projenin amacı, atıkların dijital ortamda kolayca takip edilmesini ve yönetilmesini sağlamaktır.  
-- Kullanıcılar atık verilerini ekleyebilir, görüntüleyebilir ve rapor alabilir.  
-- Yöneticiler (admin) kullanıcıların eklediği verileri silebilir, rapor indirebilir veya e-posta yoluyla paylaşabilir.  
+A modern, cross-platform Waste Management Application built with **Flutter** and **Firebase**. Designed to digitize waste tracking, streamline administrative control, and automate reporting.
 
 ---
 
-## Özellikler
-- Kullanıcı kayıt ve giriş sistemi (Firebase Authentication)
-- Rol tabanlı erişim (Kullanıcı / Admin)
-- Atık verilerinin Firestore üzerinde saklanması
-- Egzersiz listesi ve video entegrasyonu (örnek modül)
-- Raporlama ekranı (grafiksel gösterimler: Pie Chart, Bar Chart, Line Chart)
-- Admin için:
-  - PDF rapor indirme
-  - Raporu e-posta ile gönderme
-- Platform bağımsız çalışma (Android, iOS, Windows, Web, macOS, Linux)
+## 📌 Features
+
+- **🔐 Authentication & RBAC:** Secure login and registration via Firebase Authentication with Role-Based Access Control (Admin / Standard User).
+- **📦 Real-time Data Storage:** Instant waste data synchronization and management using Cloud Firestore.
+- **📊 Advanced Analytics:** Dynamic visual reports including Pie Charts, Bar Charts, and Line Charts.
+- **📄 Administrative Tools:**
+  - Export comprehensive system reports to PDF.
+  - Automated report delivery via email (integrated with EmailJS).
+  - Full management over waste records and user data.
+- **📱💻 Cross-Platform Support:** Runs natively on Android, iOS, Windows, Web, macOS, and Linux.
 
 ---
 
-## Kullanılan Teknolojiler
-- **Flutter** (Dart dili ile)
-- **Firebase Authentication** – kullanıcı kayıt/giriş işlemleri
-- **Cloud Firestore** – veritabanı yönetimi
-- **Firebase Storage** – medya ve dosya depolama
-- **EmailJS** – raporların e-posta ile gönderilmesi
-- **Charts_flutter** ve benzeri grafik paketleri – raporlamada görselleştirme
+## 🛠️ Tech Stack
+
+- **Frontend & Framework:** Flutter (Dart)
+- **Backend & Database:** Firebase (Authentication, Cloud Firestore, Firebase Storage)
+- **Email Service:** EmailJS
+- **Data Visualization:** Charts_flutter
 
 ---
 
-## Kurulum
-Projeyi kendi bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edin:
+## 🚀 Getting Started
 
-1. Depoyu klonlayın:
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/emrekilincc/AYS-Project.git
+   git clone [https://github.com/emrekilincc/AYS-Project.git](https://github.com/emrekilincc/AYS-Project.git)
+   cd AYS-Project
+Install dependencies:
 
-2. Proje klasörüne gidin:
-
-cd AYS-Project
-
-3. Gerekli bağımlılıkları yükleyin:
-
+Bash
 flutter pub get
+Configure Firebase:
+Add your google-services.json (Android) and GoogleService-Info.plist (iOS) files to the respective platform directories.
 
-4. Firebase yapılandırması için kendi google-services.json (Android) ve GoogleService-Info.plist (iOS) dosyalarınızı ekleyin.
+Run the app:
 
-5. Uygulamayı çalıştırın:
-
+Bash
 flutter run
---------------------------------------------------------------------------------------------------------------------------------------
-Katkıda Bulunma
+🤝 Contributing
+Contributions are welcome!
 
-Katkıda bulunmak isteyenler aşağıdaki adımları takip edebilir:
+Fork the Project
 
--Depoyu forklayın
+Create your Feature Branch (git checkout -b feature/NewFeature)
 
--Yeni bir branch açın (git checkout -b yeni-özellik)
+Commit your Changes (git commit -m 'Add NewFeature')
 
--Değişikliklerinizi commit edin (git commit -m 'Yeni özellik eklendi')
+Push to the Branch (git push origin feature/NewFeature)
 
--Branch’inizi push edin (git push origin yeni-özellik)
-
--Pull Request oluşturun
+Open a Pull Request
